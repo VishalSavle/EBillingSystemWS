@@ -8,8 +8,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import com.rwi.e.billing.Entity.Product_Entity;
-import com.rwi.e.billing.Entity.Repository.Product_Repository;
 import com.rwi.e.billing.dto.Product_Dto;
+import com.rwi.e.billing.repository.Product_Repository;
 @Service
 public class Product_Service_Imp implements Product_Service{
 	@Autowired
